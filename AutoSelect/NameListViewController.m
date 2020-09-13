@@ -41,8 +41,7 @@
     //第一次修改
     // Do any additional setup after loading the view from its nib.
 }
-
-- 
+//第二次t修改
 -(void)rightClick{
     NSLog(@"rightClick");
     PeoplesViewController *vc = [[PeoplesViewController alloc] initWithNibName:@"PeoplesViewController" bundle:nil];
