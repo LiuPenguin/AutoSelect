@@ -1,0 +1,6 @@
+framework module Pods_AutoSelectTests {
+  umbrella header "Pods-AutoSelectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  AutoSelect
+//
+//  Created by Apple on 2018/9/20.
+//  Copyright © 2018年 Apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define colorArr  @[RGB(0, 201, 105),RGB(246, 169,46),RGB(0,150,136),RGB(139,195,74),RGB(205,220,57),RGB(220,231,117),RGB(253,216,53),RGB(149,117,205),RGB(92,107,192),RGB(139,195,74),RGB(63,81,181),RGB(96,125,139),RGB(161,136,127),RGB(255,112,67),RGB(255,87,34),RGB(255,236,179),RGB(197,225,165),RGB(85,139,47),RGB(27,94,32),RGB(128,203,196),RGB(77,182,172)]
+
+#import "StudentManager.h"
+#import <XNProgressHUD.h>
+
+#endif /* PrefixHeader_pch */

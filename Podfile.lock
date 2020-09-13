@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - XNProgressHUD (1.1.1)
+
+DEPENDENCIES:
+  - SDWebImage
+  - XNProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - XNProgressHUD
+
+SPEC CHECKSUMS:
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  XNProgressHUD: 5b9a7f1a484af6db05af1463ae00a00b645c1468
+
+PODFILE CHECKSUM: e833ba1d239964e399eeadea000aecb75c8832ec
+
+COCOAPODS: 1.9.2
